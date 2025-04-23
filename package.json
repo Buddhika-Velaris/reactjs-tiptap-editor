@@ -1,5 +1,5 @@
 {
-  "name": "reactjs-tiptap-editor",
+  "name": "velaris-richtext-editor",
   "type": "module",
   "version": "0.3.0",
   "packageManager": "pnpm@8.15.9",

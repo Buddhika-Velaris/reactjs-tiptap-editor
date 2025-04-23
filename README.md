@@ -1,44 +1,72 @@
 <p align="center">
-<a href="https://www.npmjs.com/package/reactjs-tiptap-editor" target="_blank" rel="noopener noreferrer">
+<a href="https://github.com/yourusername/your-unique-tiptap-editor" target="_blank" rel="noopener noreferrer">
 <img src="https://api.iconify.design/ic:round-wysiwyg.svg?color=%23bbdf58" alt="logo" width='100'/></a>
 </p>
 
 <p align="center">
- A modern WYSIWYG rich-text editor base on Tiptap uses Shadcn components.
+ A modern WYSIWYG rich-text editor based on Tiptap using Shadcn components.
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/reactjs-tiptap-editor" target="_blank" rel="noopener noreferrer"><img src="https://badge.fury.io/js/reactjs-tiptap-editor.svg" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/package/reactjs-tiptap-editor" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/npm/dt/reactjs-tiptap-editor.svg?logo=npm" alt="NPM Downloads" /></a>
-  <a href="https://bundlephobia.com/result?p=reactjs-tiptap-editor" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/bundlephobia/minzip/reactjs-tiptap-editor" alt="Minizip" /></a>
-  <a href="https://github.com/hunghg255/reactjs-tiptap-editor/graphs/contributors" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg" alt="Contributors" /></a>
-  <a href="https://github.com/hunghg255/reactjs-tiptap-editor/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://badgen.net/github/license/hunghg255/reactjs-tiptap-editor" alt="License" /></a>
-  <a href="https://webuild.community" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/webuild-community/badge/master/svg/love.svg" alt="webuild" /></a>
-  <a href="https://webuild.community" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/webuild-community/badge/master/svg/WeBuild.svg" alt="member" /></a>
+  <a href="https://github.com/yourusername/your-unique-tiptap-editor/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" /></a>
 </p>
 
 ![App Screenshot](./screenshot/screenshot.png)
 
-## Demo
+## About This Project
 
-[Demo](https://reactjs-tiptap-editor-playground.vercel.app/)
+This rich text editor is a fork of [reactjs-tiptap-editor](https://github.com/hunghg255/reactjs-tiptap-editor) by [hunghg255](https://github.com/hunghg255), modified to suit my specific needs. The original project is licensed under MIT, and this modified version maintains that license with proper attribution.
 
-## Documentation
+## Features
 
-[Documentation](https://reactjs-tiptap-editor.vercel.app/)
+- Rich text editing with multiple formatting options
+- Image, GIF, and attachment support
+- Tables, code blocks, and mathematical formulas
+- Expandable drawers and embeds
+- Export to PDF and Word
+- Multiple themes and customizable UI
+- And much more!
+
+## Installation
+
+```bash
+npm install your-unique-tiptap-editor
+# or
+yarn add your-unique-tiptap-editor
+# or
+pnpm add your-unique-tiptap-editor
+```
+
+## Basic Usage
+
+```jsx
+import React from 'react';
+import { RichTextEditor } from 'your-unique-tiptap-editor';
+import 'your-unique-tiptap-editor/style.css';
+
+function App() {
+  return (
+    <div>
+      <RichTextEditor />
+    </div>
+  );
+}
+
+export default App;
+```
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-git clone https://github.com/hunghg255/reactjs-tiptap-editor.git
+git clone https://github.com/yourusername/your-unique-tiptap-editor.git
 ```
 
 Go to the project directory
 
 ```bash
-cd reactjs-tiptap-editor
+cd your-unique-tiptap-editor
 ```
 
 Install dependencies
@@ -54,15 +82,9 @@ npm run build:lib:dev
 npm run playground
 ```
 
-## All Contributors
+## Acknowledgements
 
-Thanks to the following friends for their contributions to project:
-
-![App Screenshot](./screenshot/contributor-wide.svg)
-
-## Star History
-
-<img src="https://api.star-history.com/svg?repos=hunghg255/reactjs-tiptap-editor" />
+This project is based on the excellent work done by [hunghg255](https://github.com/hunghg255) on the original [reactjs-tiptap-editor](https://github.com/hunghg255/reactjs-tiptap-editor).
 
 ## Related
 
